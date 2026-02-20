@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7f6;
+}
+
+/* CENTER PAGE */
+.center-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MAIN BOX */
+.main-box {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.title {
+    font-size: 42px;
+    color: #1b5e20;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.btn {
+    display: block;
+    margin: 12px auto;
+    padding: 12px 25px;
+    background: #2e7d32;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+}
+
+.btn:hover {
+    background: #1b5e20;
+    transform: scale(1.05);
+}
+
+.guest {
+    background: #558b2f;
+}
+
+/* HEADER */
+header {
+    background: #1b5e20;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(247, 244, 244);
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* WELCOME */
+.welcome {
+    text-align: center;
+    padding: 80px 20px;
+    background: #a5d6a7;
+}
+
+/* CARDS */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: rgb(169, 243, 182);
+    width: 260px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(14, 13, 13, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* LOGIN BOX */
+.login-box {
+    background: rgb(6, 150, 6);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(10, 10, 10, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-box button {
+    margin-top: 10px;
+}
+/* PROFESSIONAL GREEN FOOTER */
+.footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    border-top: 3px solid #4caf50;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.footer .name {
+    font-weight: bold;
+    color: #a5d6a7;
+    transition: 0.3s;
+}
+
+.footer .name:hover {
+    color: white;
+}
+.food-img {
+    width: 100%;
+    height: 402px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #d8f3dc;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 226px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
