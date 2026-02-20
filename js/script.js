@@ -2,8 +2,8 @@ function login() {
     let u = document.getElementById("username").value;
     let p = document.getElementById("password").value;
 
-    if ((u === "admin" && p === "1234") ||
-        (u === "user1" && p === "1234")) {
+    if ((u === "ashish" && p === "77@04") ||
+        (u === "payal" && p === "77@05")) {
 
         localStorage.setItem("mode", "login");
         window.location.href = "dashboard.html";
@@ -66,3 +66,4 @@ function checkAchieversAccess() {
             "Login to view contact details");
     }
 }
+
